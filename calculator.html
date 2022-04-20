@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CROSS OVER CALCULATOR </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> CROSS OVER CALCULATOR</h1>
+    <form action="" name="clc">
+        <input type="text" name="display" style="width: 450px; height: 60px; background-color:whitesmoke";><br>
+        <input type="btn" type="button" value="7" onclick="clc.display.value += '7'" style="background-color:antiquewhite; position: relative" >
+        <input type="btn" type="button" value="8" onclick="clc.display.value += '8'"style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="9" onclick="clc.display.value += '9'" style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" style="width: 160px; height: 60px; background-color: rgb(205, 63, 143) ; cursor: pointer" value="C" onclick="clc.display.value = ''"><br>
+        <input type="btn" type="button" value="4" onclick="clc.display.value += '4'" style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="5" onclick="clc.display.value += '5'" style="background-color:antiquewhite; cursor: pointer" >
+        <input type="btn" type="button" value="6" onclick="clc.display.value += '6'" style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="+" onclick="clc.display.value += '+'" style="background-color:greenyellow ; cursor: pointer">
+        <input type="btn" type="button" value="-" onclick="clc.display.value += ''" style="background-color: greenyellow ; cursor: pointer"><br>
+        <input type="btn" type="button" value="1" onclick="clc.display.value += '1'"style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="2" onclick="clc.display.value += '2'"style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="3" onclick="clc.display.value += '3'"style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="*" onclick="clc.display.value += '*'"style="background-color: greenyellow ; cursor: pointer">
+        <input type="btn" type="button" value="/" onclick="clc.display.value += '/'" style="background-color: greenyellow ; cursor: pointer"><br>
+        <input type="btn" type="button" value="0" onclick="clc.display.value += '0'"style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="00" onclick="clc.display.value += '00'"style="background-color:antiquewhite; cursor: pointer">
+        <input type="btn" type="button" value="." onclick="clc.display.value += '.'"style="background-color: antiquewhite; cursor: pointer ">
+        <input type="btn" type="button" value="=" onclick="clc.display.value =eval(clc.display.value)" style="width: 150px; height: 60px; background-color: greenyellow ; cursor: pointer"><br>
+        
+
+    </form>
+    
+</body>
+</html>
